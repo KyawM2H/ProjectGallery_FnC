@@ -117,8 +117,8 @@ html {
   }
 
   article {
-    border: thin solid burlywood;
     display: none;
+    border: thin solid burlywood;    
     text-align: justify;
     margin: 1.5px;
     padding: 2px;
@@ -175,6 +175,7 @@ html {
         padding: 0.5rem;
         text-align: justify;
         width: auto;
+        display: none;
 
         
         
