@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 768px) {
+.container {
+    display: flex;
+
+}
+section {
+    border: 2px solid gold;
+}
+img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+  
+}
+button {
+    background: #CD853F;
+    color: #fff;
+    text-align: center;
+    border-style: none;
+    padding: 3.5px;    
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 9px;
+}
+article {
+    text-align: justify;
+    border: thin solid burlywood;
+    margin: 1.5px;
+    padding: 2px;    
+}
+h2, header, footer {
+    text-align: center;
+}
+header,footer {    
+    background: #5F9EA0;
+    color: #fff;
+}
+span {
+    color: red;
+}
+}
